@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://www.host-tracker.com/User/SignIn?s=w -->
+<html><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
+        
+    <!--[if lte IE 9]>    
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <![endif]-->
+    <title>HostTracker - Sign in to service website uptime monitor, check is site down cheap with host-tracker.com
+ </title>
+        <meta name="description" content="Sign in to detailed stats &amp; reports; monitor your website, check up or down. free package available">
+    <meta name="viewport" content="initial-scale=1">               
+        <meta property="og:url" content="http://www.host-tracker.com">
+        <meta property="og:title" content="HostTracker">
+        <meta property="og:type" content="company">
+        <meta property="og:image" content="http://www.host-tracker.com/Content/img/social-logo.png">
+        <meta property="og:site_name" content="HostTracker">
+        <meta property="fb:admins" content="100003095506725">
+        <meta property="fb:admins" content="100001636838546">
+        <meta property="fb:app_id" content="127381024102365">
+        <meta property="og:description" content="HostTracker is a website monitoring service. We can keep an eye on any web resource: catch its downtimes, collect statistics and compile detailed reports about performance of a site over the time. If your site goes down - we&#39;ll notify you immediately, 24x7.">
+    <link rel="image_src" href="http://www.host-tracker.com/Content/img/social-logo.png">
+    <link rel="shortcut icon" href="https://www.host-tracker.com/Content/img/favicon.ico?v=2" type="image/x-icon">
+    <link href="https://www.host-tracker.com/Content/img/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed">
+    <link href="https://www.host-tracker.com/Content/img/apple-touch-icon-57x57-precomposed.png" rel="apple-touch-icon-precomposed" sizes="57x57">
+    <link href="https://www.host-tracker.com/Content/img/apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+    <link href="https://www.host-tracker.com/Content/img/apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+    <link href="https://www.host-tracker.com/Content/img/apple-touch-icon-144x144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+    <link href="https://www.host-tracker.com/Content/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="https://www.host-tracker.com/Content/img/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="52x52">
+    <link href="https://www.host-tracker.com/Content/img/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+    <link href="https://www.host-tracker.com/Content/img/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+    <link href="https://www.host-tracker.com/Content/img/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+    <link href="./login_files/all2.css" rel="stylesheet">
+    
+    <script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="./login_files/analytics.js"></script><script id="facebook-jssdk" async="" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.4&amp;appId=127381024102365"></script><script type="text/javascript" async="" src="https://apis.google.com/js/plusone.js"></script><script async="" src="./login_files/gtm.js"></script><script src="./login_files/jquery.js"></script>
+<script src="./login_files/all.js"></script>
+
+    
+    
+    <script type="text/javascript">
+            
+            var zones = {"-720":"Dateline Standard Time"
+,"-660":"UTC-11"
+,"-540":"Aleutian Standard Time"
+,"-600":"Hawaiian Standard Time"
+,"-570":"Marquesas Standard Time"
+,"-480":"Alaskan Standard Time"
+,"-420":"Pacific Standard Time (Mexico)"
+,"-360":"Mountain Standard Time (Mexico)"
+,"-300":"Central Standard Time"
+,"-240":"Eastern Standard Time"
+,"-180":"Atlantic Standard Time"
+,"-150":"Newfoundland Standard Time"
+,"-120":"Greenland Standard Time"
+,"-60":"Mid-Atlantic Standard Time"
+,"0":"Azores Standard Time"
+,"60":"Morocco Standard Time"
+,"120":"W. Europe Standard Time"
+,"180":"Jordan Standard Time"
+,"270":"Iran Standard Time"
+,"240":"Arabian Standard Time"
+,"300":"West Asia Standard Time"
+,"330":"India Standard Time"
+,"345":"Nepal Standard Time"
+,"360":"Central Asia Standard Time"
+,"390":"Myanmar Standard Time"
+,"420":"SE Asia Standard Time"
+,"480":"W. Mongolia Standard Time"
+,"540":"Ulaanbaatar Standard Time"
+,"510":"North Korea Standard Time"
+,"525":"Aus Central W. Standard Time"
+,"570":"Cen. Australia Standard Time"
+,"600":"E. Australia Standard Time"
+,"630":"Lord Howe Standard Time"
+,"660":"Bougainville Standard Time"
+,"720":"Russia Time Zone 11"
+,"780":"Kamchatka Standard Time"
+,"765":"Chatham Islands Standard Time"
+,"840":"Line Islands Standard Time"
+};
+            $.cookie("HTPref", "TimeZoneId=" + zones[new Date().getTimezoneOffset() * -1], { path: "/"});
+            
+        var templatesUrl = '/Localization/GetTemplates';
+        var templateFullTextUrl = '/Glossary';
+        var articleDateFormat = 'yyyy-MM-dd';
+        var seeAlsoLocalizedText = "See also";
+        var publishedLocalizedText = "Published";
+        var selectedPageTerm = '';
+        $(function () {
+            // languages
+            var getTranslationUrl = '/Localization/GetStrings';
+            var templateBaseUrl = '/Admin/Localization/EditTemplates'
+            var mode = 'False';
+            var language = 'en';
+            initLocalization(getTranslationUrl, templateBaseUrl, language, mode);
+        })
+    </script>  
+    <noscript>
+        &lt;style&gt;
+            body &gt; :not(noscript) {
+                display: none !important;
+            }
+
+            body &gt; noscript &gt; p {
+                padding: 1em;
+                font-weight:bold;
+            }
+        &lt;/style&gt;
+    </noscript>    
+</head>
+<body>
+        <!-- Google Tag Manager -->
+        <noscript>
+            &lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFS5FH"
+                    height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;
+        </noscript>
+        <script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NFS5FH');
+        </script>
+    <!-- End Google Tag Manager -->
+
+    <div id="blackBack"></div>
+
+        <div id="localizationBlock">
+        <div id="localizationText">
+            <span></span>&nbsp;<i class="fa fa-pencil" title="edit" id="editTranslations"></i>
+        </div>
+        <div id="localizationTranslations"></div>
+    </div>    
+    <div class="clearfix">
+        <div id="langMenu">
+            <ul class="menu" id="languages" url="/Localization/UpdateLanguage" routelang="" absoluteuri="https://www.host-tracker.com/User/SignIn?s=w"><li class="languageEnabled">
+                        <a href="https://www.host-tracker.com/en/User/SignIn" onfocus="this.href=&quot;javascript:&quot;" onmouseover="this.href=&quot;javascript:&quot;" id="en" iscurrentlanguage="True">English</a>
+                    </li>
+
+                                    
+                    <li class="languageDisabled">
+                        <a href="https://www.host-tracker.com/ru/User/SignIn" onfocus="this.href=&quot;javascript:&quot;" onmouseover="this.href=&quot;javascript:&quot;" id="ru" iscurrentlanguage="False">Русский</a>
+                    </li>
+                    <li class="languageDisabled">
+                        <a href="https://www.host-tracker.com/ua/User/SignIn" onfocus="this.href=&quot;javascript:&quot;" onmouseover="this.href=&quot;javascript:&quot;" id="ua" iscurrentlanguage="False">Українська</a>
+                    </li>
+
+            </ul>
+        </div>
+        <div id="mainMenu">
+            <ul class="menu">
+                <li><a href="https://www.host-tracker.com/overview" originalid="Home">Home</a></li>
+                <li><a href="https://www.host-tracker.com/Payment/Packages" originalid="Prices &amp; Packages">Prices &amp; Packages</a></li>
+            </ul>
+            <ul class="menu">
+                    <li><a href="https://www.host-tracker.com/User/SignUp" originalid="Sign up" style="font-weight:bold">Sign up</a></li>
+                    <li><a href="https://www.host-tracker.com/User/SignIn" originalid="Sign in">Sign in</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="clearfix">
+        <div id="logo">
+            <div>
+                <a href="https://www.host-tracker.com/" style="text-decoration:none">
+                    <img id="logoImage" src="./login_files/thin-small-logo.gif" alt="website monitoring">
+                </a>
+                <div id="logoText">
+                    <h1><a href="https://www.host-tracker.com/" class="logoLink">host-tracker.com</a></h1>
+                    <h3><a href="https://www.host-tracker.com/" class="logoLink">website monitoring service</a></h3>
+                </div>
+            </div>
+        </div>
+        <div id="ic">
+            <div>
+                
+
+<form action="https://www.host-tracker.com/check_page" class="icForm" method="post">    <input type="hidden" value="Http" name="ICType">
+    <table>
+        <tbody><tr>
+            <td></td>
+            <td class="small bold" style="padding-bottom:.7ex">
+                        <label title="Each test simulates the download of the page by a real customer">                        
+                            <input type="radio" name="icTypeRadio" value="Http" data-ic-option="ip" data-input-example="http://www.mysite.com" checked="checked">
+                            Http
+                        </label>
+                        <label title="Check a site or server by ICMP">                        
+                            <input type="radio" name="icTypeRadio" value="Ping" data-ic-option="ip" data-input-example="Host name or IP">
+                            Ping
+                        </label>
+                        <label title="Make a traceroute check from many servers">                        
+                            <input type="radio" name="icTypeRadio" value="Trace" data-ic-option="ip" data-input-example="Host name or IP">
+                            Trace
+                        </label>
+                        <label title="Check your network-faced applications or protocols like ftp etc.">                        
+                            <input type="radio" name="icTypeRadio" value="Port" data-ic-option="ip" data-input-example="HostName:port">
+                            Port
+                        </label>
+                        <label title="Check if a domain is present in popular anti-spam web lists">                        
+                            <input type="radio" name="icTypeRadio" value="DNSBL" data-ic-option="dnsbl" data-input-example="Host name or IP">
+                            DNSBL
+                        </label>
+                        <label title="Check your site against ShellShock, Poodle, Logjam vulnerabilities. ">                        
+                            <input type="radio" name="icTypeRadio" value="Health" data-ic-option="health" data-input-example="https://www.mysite.com">
+                            Health
+                        </label>
+                                <a title="More instant checks: shellShock, logjam, poodle, rusRegBL" href="https://www.host-tracker.com/User/SignIn?s=w#" onclick="onClick_instantCheckType(&#39;[name=InstantCheckUrl]&#39;, null, &#39;[name=icTypeRadio]:checked&#39;)" class="serviceLink" style="margin-left:1em">
+                    More
+                </a> 
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <select class="checkType" onchange="if (this.value == &#39;0&#39;) { window.location.href = &#39;/InstantCheck/Create&#39;; }">
+                            <option title="Each test simulates the download of the page by a real customer" value="Http" data-ic-option="ip" data-input-example="http://www.mysite.com" selected="selected">
+                                Http
+                            </option>
+                            <option title="Check a site or server by ICMP" value="Ping" data-ic-option="ip" data-input-example="Host name or IP">
+                                Ping
+                            </option>
+                            <option title="Make a traceroute check from many servers" value="Trace" data-ic-option="ip" data-input-example="Host name or IP">
+                                Trace
+                            </option>
+                            <option title="Check your network-faced applications or protocols like ftp etc." value="Port" data-ic-option="ip" data-input-example="HostName:port">
+                                Port
+                            </option>
+                            <option title="Check if a domain is present in popular anti-spam web lists" value="DNSBL" data-ic-option="dnsbl" data-input-example="Host name or IP">
+                                DNSBL
+                            </option>
+                            <option title="Check your site against ShellShock, Poodle, Logjam vulnerabilities. " value="Health" data-ic-option="health" data-input-example="https://www.mysite.com">
+                                Health
+                            </option>
+                            <option title="Check ShellShock vulnerability on your server" value="ShellShock" data-ic-option="shellShock" data-input-example="http://www.mysite.com">
+                                ShellShock
+                            </option>
+                            <option title="Check if ssl 3.0 enabled on server (server has POODLE vulnerability)" value="Poodle" data-ic-option="poodle" data-input-example="HostName:port">
+                                SSLv3
+                            </option>
+                            <option title="Check if specified host and port is vulnerable to tls logjam attack" value="Logjam" data-ic-option="ip" data-input-example="HostName:ssl_port for ex. myhost.com:443">
+                                Logjam
+                            </option>
+                            <option title="Request for Whois response. " value="Whois" data-ic-option="whois" data-input-example="https://www.mysite.com">
+                                Whois
+                            </option>
+                    <option value="0">
+                        More
+                    </option>
+                </select>:
+            </td>
+            <td>
+                <input type="text" name="InstantCheckUrl" value="" default="URL, Domain, IP for check" class="default">
+            </td>
+            <td>
+                <input type="submit" class="icSubmit" value="Check">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="2">
+                <div class="small">
+                    <div class="icOptions ip ">
+                        <a data-ip="218.18.185.235" title="Click to copy ip to check field" class="serviceLink">
+                            Check my ip (218.18.185.235)
+                        </a>
+                    </div>
+                    <div class="icOptions poodle hidden">
+                        
+                    </div>
+                    <div class="icOptions dnsbl hidden">
+
+                        <label><input type="radio" name="dnsblCheckType" value="f" checked="checked">First A <span class="bigScreen">record</span></label>&nbsp;&nbsp;
+                        <label><input type="radio" name="dnsblCheckType" value="a">All A <span class="bigScreen">records</span></label>&nbsp;&nbsp;
+                        <label><input type="radio" name="dnsblCheckType" value="m">A + MX <span class="bigScreen">records</span></label>
+                    </div>
+                    <div class="icOptions health hidden">
+                        ShellShock, Poodle, Logjam checks in one
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </tbody></table>
+</form>
+            </div>
+        </div>
+    </div>
+    <table style="width:100%">
+        <tbody><tr>
+            <td id="siteMenu" class="bigScreen">
+                <div class="siteMapHeadSplit"></div>
+<div class="siteMapSplit"></div>
+
+    <div sitemapgroup="Anonymous" style="display:block">
+        <a href="https://www.host-tracker.com/User/SignIn">
+            <div class="siteMapTab active ">
+                    <div class="siteMapIcon"><i class="fa fa-sign-in"></i></div>
+                    <div class="siteMapTitle">Sign In</div>
+            </div>
+        </a>                                        
+        <div class="siteMapSplit"></div>
+        <a href="https://www.host-tracker.com/User/SignUp">
+            <div class="siteMapTab  ">
+                    <div class="siteMapIcon"><i class="fa fa-pencil-square-o"></i></div>
+                    <div class="siteMapTitle">Sign Up</div>
+            </div>
+        </a>                                        
+        <div class="siteMapSplit"></div>
+        <a href="https://www.host-tracker.com/Payment/Packages">
+            <div class="siteMapTab  ">
+                    <div class="siteMapIcon"><i class="fa fa-th-large"></i></div>
+                    <div class="siteMapTitle">Prices &amp; packages</div>
+            </div>
+        </a>                                        
+        <div class="siteMapSplit"></div>
+        <a href="https://www.host-tracker.com/Agent/List">
+            <div class="siteMapTab  ">
+                    <div class="siteMapIcon"><i class="fa fa-sitemap"></i></div>
+                    <div class="siteMapTitle">Our monitoring network</div>
+            </div>
+        </a>                                        
+        <div class="siteMapSplit"></div>
+    </div>
+
+
+<div class="siteMapSplitLong"></div>
+
+            </td>
+            <td id="contentPanel">
+                <div class="clearfix">
+                    <div id="pathHolder">
+<div id="pagePath">
+                <a href="https://www.host-tracker.com/overview">Home</a>
+                <span>&gt;</span>
+                Sign In
+</div></div>
+                    <div id="mainErrorHolder" class="clearfix">
+                    </div>
+                </div>
+                <div id="pageHeader">
+                    <h2>Sign in</h2>
+                    <small></small>
+                </div>
+                <div id="allErrors">
+                    
+                    
+                                                        </div>
+                <div id="pageBody">
+                    
+
+
+<form method="post">
+    <table class="form _5">
+        <tbody><tr>
+            <td><label for="username">Login:</label></td>
+            <td><input id="username" name="username" type="text" value=""></td>
+        </tr>
+        <tr>
+            <td><label for="password">Password:</label></td>
+            <td><input id="password" name="password" type="password" value="">
+                    <br><small class="serviceText"><a href="https://www.host-tracker.com/User/ResetPassword" originalid="Forgot password?">Forgot password?</a></small>
+            </td>                  
+        </tr>
+                <tr>
+            <td></td>
+            <td>
+                <div class="pageActions">
+                    <input type="submit" value="Log On">
+                    <input checked="checked" id="rememberMe" name="rememberMe" type="checkbox" value="true"><input name="rememberMe" type="hidden" value="false"> <label class="inline" for="rememberMe">Remember me</label>
+                </div>
+                <div class="small serviceText">
+                    Don't have an <a href="https://www.host-tracker.com/User/SignUp" originalid="account?">account?</a>
+                </div>
+            </td>
+        </tr>
+    </tbody></table>
+    <input id="returnUrl" name="returnUrl" type="hidden" value="/">
+    <input id="superAccountId" name="superAccountId" type="hidden" value="">
+</form>
+<table class="form _5">
+    <tbody><tr>
+        <td style="vertical-align:middle"></td>
+        <td>
+            
+<form method="post" action="https://www.host-tracker.com/OAuth/Login">
+    <input type="hidden" id="oauthProviderId" name="provider">
+    <input type="hidden" name="returnUrl" value="https://www.host-tracker.com/">
+                        <table>
+        <tbody><tr class="externalProviders">
+            <td>  
+                <a href="https://www.host-tracker.com/User/SignIn?s=w#" style="text-decoration:none" data-oauthprovider="microsoft">             
+                    <div class="externalProviderLogo ">
+                        <i class="fa fa-windows"></i>
+                    </div>
+                </a>                 
+            </td>                
+            <td>  
+                <a href="https://www.host-tracker.com/User/SignIn?s=w#" style="text-decoration:none" data-oauthprovider="google">             
+                    <div class="externalProviderLogo ">
+                        <i class="fa fa-google-plus"></i>
+                    </div>
+                </a>                 
+            </td>                
+            <td>  
+                <a href="https://www.host-tracker.com/User/SignIn?s=w#" style="text-decoration:none" data-oauthprovider="facebook">             
+                    <div class="externalProviderLogo ">
+                        <i class="fa fa-facebook"></i>
+                    </div>
+                </a>                 
+            </td>                
+            <td>  
+                <a href="https://www.host-tracker.com/User/SignIn?s=w#" style="text-decoration:none" data-oauthprovider="vk">             
+                    <div class="externalProviderLogo ">
+                        <i class="fa fa-vk"></i>
+                    </div>
+                </a>                 
+            </td>                
+            <td>  
+                <a href="https://www.host-tracker.com/User/SignIn?s=w#" style="text-decoration:none" data-oauthprovider="linkedin">             
+                    <div class="externalProviderLogo ">
+                        <i class="fa fa-linkedin"></i>
+                    </div>
+                </a>                 
+            </td>                
+            <td>  
+                <a href="https://www.host-tracker.com/User/SignIn?s=w#" style="text-decoration:none" data-oauthprovider="twitter">             
+                    <div class="externalProviderLogo ">
+                        <i class="fa fa-twitter"></i>
+                    </div>
+                </a>                 
+            </td>                
+        </tr>
+    </tbody></table>
+    <script>
+        $(function () {
+            $("a[data-oauthprovider]").click(function (e) {
+                $('#oauthProviderId').val($(this).data("oauthprovider"));
+                $(this).closest('form').submit();
+            })
+        });
+    </script>
+</form>
+        </td>
+    </tr>
+</tbody></table>
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="bigScreen"></td>
+            <td id="footer">
+                <div id="nav">
+                    
+<div class="clearfix bigScreen">
+    <div class="span4">
+        <h3>Main</h3>
+        <ul>
+            <li><a alt="Instant check" class="serviceLink" href="https://www.host-tracker.com/check_page" originalid="Instant check">Instant check</a></li>
+            <li><a alt="Sign in" class="serviceLink" href="https://www.host-tracker.com/User/SignIn" originalid="Sign in">Sign in</a></li>
+            <li><a alt="Sign up" class="serviceLink" href="https://www.host-tracker.com/User/SignUp" originalid="Sign up">Sign up</a></li>
+            <li><a alt="Prices &amp; packages" class="serviceLink" href="https://www.host-tracker.com/Payment/Packages" originalid="Prices &amp; packages">Prices &amp; packages</a></li>
+        </ul>
+    </div>
+    <div class="span4">
+        <h3>Partnership</h3>
+        <ul>
+            <li><a alt="Our monitoring network" class="serviceLink" href="https://www.host-tracker.com/Agent/List" originalid="Our monitoring network">Our monitoring network</a></li>
+            <li><a alt="Become hosting partner" class="serviceLink" href="https://www.host-tracker.com/Agent/Create" originalid="Become hosting partner">Become hosting partner</a></li>
+            <li><a alt="Partners" class="serviceLink" href="https://www.host-tracker.com/Partners" originalid="Partners">Partners</a></li>
+        </ul>
+    </div>
+    <div class="span4">
+        <h3>Legal</h3>
+        <ul>
+            <li><a alt="Privacy Policy" class="serviceLink" href="https://www.host-tracker.com/Privacy/PrivacyPolicy" originalid="Privacy Policy" target="_blank">Privacy Policy</a></li>
+            <li><a alt="Terms and Conditions" class="serviceLink" href="https://www.host-tracker.com/Privacy/TermsAndConditions" originalid="Terms and Conditions" target="_blank">Terms and Conditions</a></li>
+        </ul>
+    </div>
+    <div class="span4">
+        <h3>Support</h3>
+        <ul>
+            <li><a alt="Help" class="serviceLink" href="https://www.host-tracker.com/Glossary" originalid="Help">Help</a> &amp; <a alt="Blog" class="serviceLink" href="https://www.host-tracker.com/Blog" originalid="Blog">Blog</a></li>
+            <li id="giveFeedbackLink" style="cursor:pointer" url="/Feedback/DrawFeedback"><span>Give feedback</span></li>
+            <li>
+                <a href="https://www.host-tracker.com/User/SignIn?s=w#" onfocus="this.href=&quot;mailto:&quot;+&quot;moc.rekcart-tsoh@troppus2th&quot;.split(&quot;&quot;).reverse().join(&quot;&quot;);" onmouseover="this.href=&quot;mailto:&quot;+&quot;moc.rekcart-tsoh@troppus2th&quot;.split(&quot;&quot;).reverse().join(&quot;&quot;);">
+                    <script type="text/javascript">document.write('moc.rekcart-tsoh@troppus2th'.split("").reverse().join(""));</script>ht2support@host-tracker.com
+                </a>
+            </li>
+                    </ul>
+    </div>
+    <div id="termsAndSocialHolder"><div id="pageTerms" class="show">
+    <table>
+        <tbody><tr>
+            <td><i class="fa fa-arrow-circle-left" id="switchTermLeft"></i></td>
+            <td class="terms">
+    <div class="term" termid="CM.Glossary.HTTP" style="display: block;">
+        <span class="termTitle">HTTP</span>
+        <div class="termContent">
+            <span class="shortTitle">HTTP</span>
+<span class="shortText">HTTP - hyper text transfer protocol, a way to transfer website data via Internet.</span>
+<div class="fullText">
+    <p>HTTP - hyper text transfer protocol, a way to transfer website data via Internet. At first, was created for transfer of HTML documents, now most of <a href="http://www.host-tracker.com/Glossary/Website">website</a> data (audio, video, images etc.) is downloaded through this protocol. HTTP has several methods - to check a website, to get the data from the server, and to upload some information from client to the site. More about them you may find in <a href="http://www.host-tracker.com/Glossary/HTTPMethods">this article</a>. HTTP has its secure version - <a href="http://www.host-tracker.com/Glossary/HTTPS">HTTPS</a>
+    </p>
+    <p>This protocol is used by clients to review web pages. Thus, to check a website, we should use it too. Website monitoring services, like <a href="http://www.host-tracker.com/">HostTracker</a>, perform HTTP checks to make sure that the site is operating well.
+    </p>
+</div>
+<ul class="linkedTerms">
+  <li>CM.Glossary.WebsiteMonitoring</li>
+  <li>CM.Glossary.HTTPS</li>
+  <li>CM.Glossary.HTTPMethods</li>
+</ul>
+            <span class="moreLink"><a href="https://www.host-tracker.com/Glossary/HTTP" originalid="more">more</a></span>
+            <span class="moreLink"><a href="https://www.host-tracker.com/Glossary" originalid="glossary">glossary</a></span>
+        </div>        
+    <ul class="linkedArticles"><li class="seeAlso">See also:</li><li><a href="https://www.host-tracker.com/Glossary/WebsiteMonitoring">Website monitoring</a></li><li><a href="https://www.host-tracker.com/Glossary/HTTPMethods">HTTP methods</a></li></ul></div>
+    <div class="term" termid="CM.Testimonials.LP">
+        <div class="testimonial" style="float:left">
+            "<p>I like to know when my services are down, and how much time does it take to recover.</p>
+"
+        </div>
+        <div class="author" style="float:left; text-align: right">
+            - LP
+        </div>
+        <div style="clear:both"></div>
+    </div>
+
+    <div class="term moreLink" termid="faqs">
+    <div class="faqHead">
+        <a href="https://www.host-tracker.com/FAQ">FAQ</a>
+    </div>
+    <ul class="questions">
+        <li>
+        <a href="https://www.host-tracker.com/FAQ/UpdateCC">How to update credit card for billing?</a>
+        </li>
+        <li>
+        <a href="https://www.host-tracker.com/FAQ/IPList">Where can I find the list of HostTracker IPs?</a>
+        </li>
+        <li>
+        <a href="https://www.host-tracker.com/FAQ/ContentCheck">How to check CONTENT with HostTracker?</a>
+        </li>
+        <li>
+        <a href="https://www.host-tracker.com/FAQ/AddSite">How to add more sites for monitoring?</a>
+        </li>
+        <li>
+        <a href="https://www.host-tracker.com/FAQ/AddManySites">Can I insert a list of sites for monitoring?</a>
+        </li>
+    </ul>
+    </div>
+    <div class="term" termid="CM.Blog.HostTracker_under_Azure">
+        <span class="blogTitle">Host-Tracker under Windows Azure</span><div class="articleDateHolder"><span class="articleDate">Published: 2014-03-07</span></div>
+        <div class="blogContent">
+            <div class="shortText">
+Those, who actively involved with the Web, should know <a href="http://www.host-tracker.com/" target="_blank">Host Tracker</a>, a company from Ukraine, which has been supporting one of the leading global web monitoring services since 2004. Its goal is to monitor site health and accessibility in near-real-time access. Using alert message system, Host Tracker allows to reduce downtimes, to improve quality of service for users, to quickly localize troubles...
+</div><div class="fullText">
+Those, who actively involved with the Web, should know <a href="http://www.host-tracker.com/" target="_blank">Host Tracker</a>, a company from Ukraine, which has been supporting one of the leading global web monitoring services since 2004. Its goal is to monitor site health and accessibility in near-real-time access. Using alert message system, Host Tracker allows to reduce downtimes, to improve quality of service for users, to quickly localize troubles, and etc. <br>
+Architecturally, Host Tracker includes a server-based hub, acting both as a data collector and control center, and a series of software agents, launched in various regions – typically using the equipment operated by major providers, hosters and affiliates. The geographically distributed architecture provides common system reliability and also allows collecting data in terms of access speed, bandwidth and other key performance characteristics on regional level – a critically important feature for the international business. <br>
+The first version of Host Tracker, which is still functioning and providing services for tens of thousands of customers, was Linux based. Today, it is supported by nine control servers, located and organized in two DPCs on collocation principle, and few dozens of agents. Considering that the final objective of web monitoring is focused on increasing the uptime of client-based web resources – whereas 95% of Host Tracker customers were able to increase it up to 99% – then, performance and accessibility of the service itself are not just critical, but rather fundamental parameters that influence the whole business. Theoretically, Host Tracker should demonstrate accessibility close to 100%. However, an extensive growth of the service made this task hard to solve.<br>
+Host Tracker was facing constantly increasing network traffic – a problem for seamless operation of the service. Inability to add new control servers on-the-fly, difficulties when maintaining not uniform and multiple-aged hardware was another limiting factor. Moreover, the desire to develop the service through wider protocol and network service support was meeting certain obstacles. “Unfortunately, for Linux there was a limited choice of ready-to-use solutions and libraries, while inventing something completely new was difficult”, says Artem Prisyazhnyuk, Host Tracker director. “We had an idea of reviewing the stack of technologies we used for a more sophisticated one and after taking a closer look at the .NET platform, its potential in terms of scalability and network support, I realized that was exactly the thing we had been looking for.”<br>
+It was sure that migrating to a completely different platform should be a complex task – the project extended over three years. However, it was like blessing in disguise: during this period, the world has seen the cloud computing that seemed an ideal tool for solving both the scalability problem and putting aside one’s own whole infrastructure. Besides, the PaaS model allowed to remove most of the effort in terms of administering the solution and to control the application as a self-contained entity, to the extent of complete automation, and thus, Windows Azure had in fact no alternatives.<br>
+As a result, the second version of Host Tracker, commercial operation of which started in May 2012, is already functioning under Windows Azure. Its central ingredient is realized as Web Role and associated with SQL Azure Database – it provides external portal, analytics and report generation, control of monitoring applications. The latter are ensured with instances of Worker Role, which also use SQL Azure Database to store their data and to provide the service scalability depending on the network loading. Agents are functioning as they did before, with the viability of their transfer to Windows Azure being considered.<br>
+Now, Host Tracker uses HTTP/HTTPS and ICMP protocols to monitor specific ports, including various methods (HEAD/POST/GET), and etc.<br>
+<br>
+<div style="text-align: center;">
+<a href="./login_files/http2.JPG" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;">
+    <img alt="HostTracker instant check" src="./login_files/http2.JPG" height="315" width="640"></a></div>
+<br>
+<div style="clear: both; text-align: center;">
+</div>
+<br>
+Alarm reporting is available via email, SMS and instant messages. The customer can receive reports with statistics about resources being controlled and their performances. You can spend only 6 minutes to make monitoring settings for five sites, while the average response time in case of failure is limited by a couple of minutes, and it takes 1-3 minutes more to inform the customer about the problem. Using this service, anyone can check any site, including access from various regions.<br>
+As a result, if on the one side the transfer to the .NET platform itself gave us the potential to modernize Host Tracker, to optimize the application architecture and realize new internal functions, then, on the other side, the migration to the cloud allowed to refuse from less important, though time consuming activities such as administering the solution, and, first of all, to reach necessary performance indicators. Microsoft, for all basic Windows Azure services, declares 99,9% accessibility and guarantees monthly refunds, should this indicator be lower. This creates a firm ground for operating such services like Host Tracker, as the accessibility is the most critical parameter for these applications. Using the cloud infrastructure also provides a better protection for the service: unauthorized access to the application and many types of attacks are effectively excluded, while the data safety is ensured by triple reservation. &nbsp; <br>
+Host Tracker received another advantage from abandoning its own infrastructure. The service’s performance characteristics are also rather critical, for they directly affect the failure reporting system operation. In this respect, Windows Azure is virtually a drainless source of computing power. This means that by timely starting additional monitoring instances you can support Host Tracker functioning parameters on the necessary level. Moreover, the cloud environment is exactly what you need in order to make this process almost fully automatic, excluding further need for direct control.<br>
+</div>
+            <span class="moreLink"><a href="https://www.host-tracker.com/Blog/HostTracker_under_Azure" originalid="more">more</a></span>
+            <span class="moreLink"><a href="https://www.host-tracker.com/Blog" originalid="blog">blog</a></span>
+        </div>        
+    </div>
+            </td>
+            <td><i class="fa fa-arrow-circle-right" id="switchTermRight"></i></td>
+        </tr>
+    </tbody></table>
+</div>
+    </div>
+</div>
+<div class="smallScreen">
+    <ul>
+        <li><a alt="Sign in" class="serviceLink" href="https://www.host-tracker.com/User/SignIn" originalid="Sign in">Sign in</a> || <a alt="Sign up" class="serviceLink" href="https://www.host-tracker.com/User/SignUp" originalid="Sign up">Sign up</a></li>
+        <li><a alt="Prices &amp; packages" class="serviceLink" href="https://www.host-tracker.com/Payment/Packages" originalid="Prices &amp; packages">Prices &amp; packages</a></li>
+        <li><a alt="Our monitoring network" class="serviceLink" href="https://www.host-tracker.com/Agent/List" originalid="Our monitoring network">Our monitoring network</a></li>
+        <li class="small"><a alt="Privacy Policy" class="serviceLink" href="https://www.host-tracker.com/Privacy/PrivacyPolicy" originalid="Privacy Policy" target="_blank">Privacy Policy</a> &amp; <a alt="Terms and Conditions" class="serviceLink" href="https://www.host-tracker.com/Privacy/TermsAndConditions" originalid="Terms and Conditions" target="_blank">Terms and Conditions</a></li>
+        <li class="small"><a alt="Help" class="serviceLink" href="https://www.host-tracker.com/Glossary" originalid="Help">Help</a> &amp; <a alt="Blog" class="serviceLink" href="https://www.host-tracker.com/Blog" originalid="Blog">Blog</a></li>
+        <li class="small">
+            <a href="https://www.host-tracker.com/User/SignIn?s=w#" onfocus="this.href=&quot;mailto:&quot;+&quot;moc.rekcart-tsoh@troppus2th&quot;.split(&quot;&quot;).reverse().join(&quot;&quot;);" onmouseover="this.href=&quot;mailto:&quot;+&quot;moc.rekcart-tsoh@troppus2th&quot;.split(&quot;&quot;).reverse().join(&quot;&quot;);">
+                <script type="text/javascript">document.write('moc.rekcart-tsoh@troppus2th'.split("").reverse().join(""));</script>ht2support@host-tracker.com
+            </a>
+        </li>
+            </ul>
+</div>
+                </div>
+                <div>
+                          
+
+<div class="social"><div class="g-plusone" data-size="medium" data-href="http://www.host-tracker.com"></div></div>
+<div class="social"><div class="fb-like" data-href="https://www.facebook.com/hosttracker" data-send="false" data-layout="button_count" data-show-faces="true"></div></div>
+<div style="display:none" id="fb-root"></div>
+
+<script type="text/javascript">
+(function () {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+</script>
+
+<script type="text/javascript">    
+(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id; js.async = true;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=127381024102365";
+    fjs.parentNode.insertBefore(js, fjs);
+} (document, 'script', 'facebook-jssdk'));
+</script>
+
+
+                    <div class="socialButtonsHeader">Share:</div>
+                    
+<a style="cursor:pointer" rel="nofollow" target="_blank" href="http://twitter.com/intent/tweet?text=HostTracker+is+monitoring+service%2c+notifies+about+websites+downtimes%2c+collects+statistics.+http%3a%2f%2fwww.host-tracker.com%2fen"><img src="./login_files/twitter.png" width="20" height="20" alt="Send to Twitter" title="Send to Twitter"></a>
+<a style="cursor:pointer" rel="nofollow" target="_blank" href="https://www.facebook.com/dialog/share?app_id=127381024102365&amp;display=popup&amp;href=http%3a%2f%2fwww.host-tracker.com%2fen"><img src="./login_files/facebook.png" width="20" height="20" alt="Send to Facebook" title="Send to Facebook"></a>
+<a style="cursor:pointer" rel="nofollow" target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2fwww.host-tracker.com%2fen&amp;source=HostTracker"><img src="./login_files/linkedin.png" width="20" height="20" alt="Send to LinkedIn" title="Send to LinkedIn"></a>
+<a href="https://plus.google.com/share?url=http%3a%2f%2fwww.host-tracker.com%2fen&amp;hl=en-US" onclick="javascript:window.open(this.href,
+  &#39;&#39;, &#39;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#39;);return false;"><img src="./login_files/gplus-32.png" alt="Share on Google+" width="20" height="20"></a>
+
+                    <div class="socialButtonsHeader">
+                        Blogs:
+                    </div>
+                    
+<a href="https://www.host-tracker.com/Blog" target="_blank"><img style="width:20px" src="./login_files/thin-small-logo.gif" alt="HostTracker blog" title="HostTracker blog"></a>
+<a href="https://www.facebook.com/hosttracker" target="_blank"><img src="./login_files/facebook.png" style="width:20px" alt="HostTracker page on Facebook" title="HostTracker page on Facebook"></a>
+
+                </div>
+                <div id="paymentMethodImages">
+                    <img src="./login_files/Visa.png" width="40" height="25">
+                    <img src="./login_files/PayPal.png" width="40" height="25">
+                    <img src="./login_files/American-Express.png" width="40" height="25">
+                    <img src="./login_files/Mastercard.png" width="40" height="25">
+                    <img src="./login_files/webmoney.png" width="80" height="25">
+                                    </div>
+                <div id="copyright" class="serviceLink">© 2004-2016, host-tracker.com</div>
+            </td>
+        </tr>
+    </tbody></table>
+    <noscript>
+        &lt;p&gt;Oops! Javascript is disabled for host-tracker site. Enable it in your browser settings.&lt;/p&gt;
+    </noscript>    
+    
+
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","//connect.facebook.net/en_US/fbevents.js");fbq("init","455435264653077");fbq("track","PageView");</script>
+<noscript>&lt;img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=455435264653077&amp;amp;ev=PageView&amp;amp;noscript=1"&gt;</noscript>
+</body></html>

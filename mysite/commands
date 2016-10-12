@@ -1,0 +1,9 @@
+create proj: django-admin startproject mysite
+proj shell: python manage.py shell
+create app: python manage.py startapp books
+runserver: python manage.py runserver 10.104.19.246:80
+check models parase: python manage.py validate
+print create db script: python manage.py sqlall books
+create db: python manage.py syncdb
+run uwsgi: uwsgi --ini mysite_uwsgi.ini --daemonize uwsgi.log --plugin python
+collectstatic: python manage.py collectstatic

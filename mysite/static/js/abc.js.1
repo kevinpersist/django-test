@@ -1,0 +1,62 @@
+//alert('Hello, world');
+'use strict';
+
+var abc = 'Hello, world';
+//alert(abc.toUpperCase());
+
+var xiaoming = {
+    name: 'xiaoming',
+    birth: 1990,
+    school: 'No.1 Middle School',
+    height: 1.70,
+    weight: 65,
+    score: null
+}; 
+
+//alert(xiaoming.height);
+
+var o = {
+    name: 'Jack',
+    age: 20,
+    city: 'Beijing'
+};
+for (var key in o) {
+    if (o.hasOwnProperty(key)) {
+        //alert(o[key]); // 'name', 'age', 'city'
+    }
+} 
+
+var arr = ['Bart', 'Lisa', 'Adam'];
+var i
+for(i=0;i<arr.length;i++) {
+   //alert(arr[i]);
+}
+
+var m = new Map();
+var s = new Set();
+//alert('test map set ok')
+
+function foo(x) {
+    alert(x); // 10
+    for (var i=0; i<arguments.length; i++) {
+        alert(arguments[i]); // 10, 20, 30
+    }
+}
+foo(10, 20, 30); 
+
+
+function foo(a, b, ...rest) {
+    console.log('a = ' + a);
+    console.log('b = ' + b);
+    console.log(rest);
+}
+
+foo(1, 2, 3, 4, 5);
+// a = 1
+// b = 2
+// Array [ 3, 4, 5 ]
+
+foo(1);
+// a = 1
+// b = undefined
+// Array [] 
