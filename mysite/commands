@@ -7,3 +7,5 @@ print create db script: python manage.py sqlall books
 create db: python manage.py syncdb
 run uwsgi: uwsgi --ini mysite_uwsgi.ini --daemonize uwsgi.log --plugin python
 collectstatic: python manage.py collectstatic
+
+test1
